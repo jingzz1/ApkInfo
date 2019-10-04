@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="BDAlertDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 竖屏模式下dialog的宽度 -->
+        <item name="android:windowMinWidthMinor">@dimen/bd_dialog_min_width_minor</item>
+    </style>
+</resources>

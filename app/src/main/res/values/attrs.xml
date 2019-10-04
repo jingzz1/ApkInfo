@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="ShapeImageView">
+        <attr name="siv_shape" format="enum">
+            <!--圆-->
+            <enum name="Circle" value="0"/>
+            <!--矩形-->
+            <enum name="Rectangle" value="1"/>
+            <!--圆角矩形-->
+            <enum name="RoundRectangle" value="2"/>
+        </attr>
+        <!--文字格式-->
+        <attr name="siv_textStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+            <enum name="bold_italic" value="3"/>
+        </attr>
+        <!--圆角半径-->
+        <attr name="siv_radius" format="dimension"/>
+        <attr name="siv_text" format="string"/>
+        <attr name="siv_textColor" format="color"/>
+        <attr name="siv_textSize" format="dimension"/>
+        <attr name="siv_backgroundColor" format="color"/>
+        <attr name="siv_borderWidth" format="dimension"/>
+        <attr name="siv_borderColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="LetterIndexBar">
+        <attr name="LIB_textSize" format="dimension"/>
+        <attr name="LIB_textColor" format="color"/>
+        <attr name="LIB_selectTextColor" format="color"/>
+    </declare-styleable>
+</resources>
